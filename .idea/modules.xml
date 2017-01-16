@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-common/api-common.iml" filepath="$PROJECT_DIR$/.idea/modules/api-common/api-common.iml" group="api-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-common/api-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-common/api-common_main.iml" group="api-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-common/api-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-common/api-common_test.iml" group="api-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_main.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_test.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/product-service.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/product-service.iml" group="product-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/product-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/product-service_main.iml" group="product-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service/product-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service/product-service_test.iml" group="product-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/.idea/modules/service-discovery/service-discovery.iml" group="service-discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-discovery/service-discovery_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-discovery/service-discovery_main.iml" group="service-discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-discovery/service-discovery_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-discovery/service-discovery_test.iml" group="service-discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shopback.iml" filepath="$PROJECT_DIR$/.idea/modules/shopback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shopback_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shopback_main.iml" group="shopback" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shopback_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shopback_test.iml" group="shopback" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/store-service/store-service.iml" filepath="$PROJECT_DIR$/.idea/modules/store-service/store-service.iml" group="store-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/store-service/store-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/store-service/store-service_main.iml" group="store-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/store-service/store-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/store-service/store-service_test.iml" group="store-service" />
+    </modules>
+  </component>
+</project>

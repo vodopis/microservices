@@ -1,0 +1,6 @@
+include 'product-service'
+include 'store-service'
+include 'service-discovery'
+include 'api-gateway'
+include 'api-common'
+

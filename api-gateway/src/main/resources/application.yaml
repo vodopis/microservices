@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 8080
+
+zuul:
+  routes:
+    product-service:
+      path: '/products/**'
+      strip-prefix: false
+    store-service:
+      path: '/stores/**'
+      strip-prefix: false
