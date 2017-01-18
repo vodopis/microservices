@@ -26,10 +26,6 @@ class ProductService {
 
     // Retrieve store for id via restTemplate
     private Store getStoreById(Long id) {
-        /*HttpHeaders headers = new HttpHeaders()
-        headers.set("Authorization", token)
-        HttpEntity<String> entity = new HttpEntity<String>(headers)*/
-
         Store store = restTemplate.exchange( storeServiceUrl + "/stores/{id}", HttpMethod.GET, null,
                 new ParameterizedTypeReference<Store>() { }, id).getBody()
 
