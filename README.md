@@ -6,17 +6,30 @@ This project provides an example of microservices architecture providing the fol
 * Service Discovery (Eureka)
 * API Gateway (Zuul)
 * Authentication and Authorization
-* Implementation of 2 microservices (products and stores) which are able to communicate to each other
+* Implementation of 2 microservices (product and store) which are able to communicate to each other
 
 On startup, api gateway and microservices will register themselves with Eureka. Requests
 are routed though Zuul which runs on port 8080.
 
 ### Test preparation
 Open 5 terminal tabs in project directory and run supplied commands in order. Wait until each downloads dependencies and fully starts before going to the next one.
-1. Eureka service discovery: ./gradlew :service-discovery:bootRun
-2. Zuul api gateway: ./gradlew :api-gateway:bootRun
-3. Store Service: ./gradlew :store-service:bootRun
-4. Product Service: ./gradlew :product-service:bootRun
+
+1. Eureka service discovery
+```
+./gradlew :service-discovery:bootRun
+```
+2. Zuul api gateway
+```
+./gradlew :api-gateway:bootRun
+```
+3. Store microservice
+```
+./gradlew :store-service:bootRun
+```
+4. Product microservice
+```
+./gradlew :product-service:bootRun
+```
 5. Use for curl commands below
 
 ### Interacting with microservices
