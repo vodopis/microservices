@@ -26,7 +26,7 @@ Open 5 terminal tabs in project directory and run supplied commands in order. Wa
 curl test:test123@localhost:8080/oauth/token -d grant_type=client_credentials
 ```
 
-2. Interact with stores resource - substitute TOKEN with token received from command above
+2. Interact with stores microservice (substitute TOKEN with token received from command above)
   1. LIST
     ```
     curl localhost:8080/stores -v -H 'Authorization: Bearer TOKEN'
