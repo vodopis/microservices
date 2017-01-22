@@ -39,7 +39,7 @@ Open 5 terminal tabs in project directory and run supplied commands in order. Wa
 curl test:test123@localhost:8080/oauth/token -d grant_type=client_credentials
 ```
 
-2. Interact with stores microservice (substitute TOKEN with token received from command above)
+2. Interact with Stores microservice (substitute TOKEN with token received from command above)
   1. LIST
     ```
     curl localhost:8080/stores -v -H 'Authorization: Bearer TOKEN'
@@ -66,4 +66,4 @@ curl test:test123@localhost:8080/oauth/token -d grant_type=client_credentials
     curl localhost:8080/stores/search -v -X POST -H 'Authorization: Bearer TOKEN' -H 'Content-Type: application/json' -d '{"description":"Description 4"}'
     ```
 
-3. Interact with products microservice - endpoints are the same as above starting with /products prefix. There are 3 product objects in memory with ids 100, 101, 102. Note that LIST and GET request will make a request to stores service through the gateway - observe log messages in tab 3.
+3. Interact with Products microservice - endpoints are the same as above starting with /products prefix. There are 3 product objects in memory with ids 100, 101, 102. Note that LIST and GET request will make a request to stores service - observe log messages in tab 3.
