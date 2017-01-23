@@ -11,15 +11,15 @@ This project provides an example of microservices architecture providing the fol
 On startup, api gateway and microservices will register themselves with Eureka. Requests
 are routed though Zuul which runs on port 8080.
 
-### Test preparation
-Open 5 terminal tabs in project directory and run supplied commands in order. Wait until each downloads dependencies and fully starts before going to the next one.
+### Test launch
+Open 4 terminal tabs in project directory and run supplied commands in order. Wait until each downloads dependencies and fully starts before going to the next one.
 
 1. Eureka service discovery
 
     ```
     ./gradlew :service-discovery:bootRun
     ```
-    
+
 2. Zuul api gateway
 
     ```
@@ -37,8 +37,6 @@ Open 5 terminal tabs in project directory and run supplied commands in order. Wa
     ```
     ./gradlew :product-service:bootRun
     ```
-
-5. Use for curl commands below
 
 ### Interacting with microservices
 
