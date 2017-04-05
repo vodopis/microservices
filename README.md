@@ -6,7 +6,7 @@ This project provides an example of microservices architecture providing the fol
 * Service Discovery (Eureka)
 * API Gateway (Zuul)
 * Authentication and Authorization
-* Implementation of 2 microservices (product and store) which are able to communicate to each other
+* Implementation of 2 microservices (Product and Stor) which are able to communicate to each other
 
 On startup, api gateway and microservices will register themselves with Eureka. Requests
 are routed though Zuul which runs on port 8080.
@@ -46,7 +46,7 @@ Open 4 terminal tabs in project directory and run supplied commands in order. Wa
     curl test:test123@localhost:8080/oauth/token -d grant_type=client_credentials
     ```
 
-2. Interact with Stores microservice (substitute TOKEN with token received from command above)
+2. Interact with Store microservice (substitute TOKEN with token received from command above)
   1. LIST
 
     ```
@@ -54,8 +54,8 @@ Open 4 terminal tabs in project directory and run supplied commands in order. Wa
     ```
 
   2. GET
-    ```
 
+    ```
     curl localhost:8080/stores/2 -v -H 'Authorization: Bearer TOKEN'
     ```
 
@@ -84,4 +84,4 @@ Open 4 terminal tabs in project directory and run supplied commands in order. Wa
     curl localhost:8080/stores/search -v -X POST -H 'Authorization: Bearer TOKEN' -H 'Content-Type: application/json' -d '{"description":"Description 4"}'
     ```
 
-3. Interact with Products microservice - endpoints are the same as above starting with /products prefix. There are 3 product objects in memory with ids 100, 101, 102. Note that LIST and GET request will make a request to stores service - observe log messages in tab 3.
+3. Interact with Product microservice - endpoints are the same as above starting with /products prefix. There are 3 product objects in memory with ids 100, 101, 102. Note that LIST and GET request will make a request to stores service - observe log messages in tab 3.
